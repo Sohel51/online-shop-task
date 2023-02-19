@@ -1,0 +1,20 @@
+.container .sidebar {
+  width: 20%;
+  border-right: 2px solid tomato;
+}
+.container .body {
+  width: 80%;
+}
+.container .body .content {
+  width: 100%;
+}
+.container .body .content .products {
+  width: 70%;
+}
+.container .body .content .products .main_product_card {
+  border: 2px solid tomato;
+  padding: 10px;
+}
+.container .body .content .daily_items {
+  width: 30%;
+}
