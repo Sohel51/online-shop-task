@@ -21,7 +21,7 @@ const Home = () => {
             <div className="products">
               <div className="main_product_card d-flex">
                 <div className="img">
-                  <FaAccessibleIcon style={{fontSize:'200px'}}/>
+                  <FaAccessibleIcon style={{ fontSize: '200px' }} />
                 </div>
                 <div className="details">
                   <h3>Beats Studio</h3>
@@ -48,6 +48,7 @@ const Home = () => {
                 <h3>Explore the Popular Categories <span>See All</span></h3>
               </div>
             </div>
+            {/* Right site Daily Items */}
             <div className="daily_items">
               <div className="box mb-5">
                 <h3>Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
