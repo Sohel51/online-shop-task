@@ -4,3 +4,12 @@
 .sidebar_page .menu h3 {
   padding: 10px;
 }
+.sidebar_page .help {
+  text-align: center;
+  border: 2px solid;
+  margin: 2px;
+  border-radius: 5px;
+}
+.sidebar_page .help p {
+  font-size: 15px;
+}

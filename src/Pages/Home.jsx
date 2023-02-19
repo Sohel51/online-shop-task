@@ -2,6 +2,7 @@ import React from 'react'
 import Card from './Card'
 import Header from './Shared/Header'
 import Sidebar from './Shared/Sidebar'
+import { FaAccessibleIcon } from 'react-icons/fa';
 
 const Home = () => {
   return (
@@ -18,8 +19,10 @@ const Home = () => {
           </div>
           <div className="content d-flex gap-4">
             <div className="products">
-              <div className="main_product_card">
-                <div className="img"></div>
+              <div className="main_product_card d-flex">
+                <div className="img">
+                  <FaAccessibleIcon style={{fontSize:'200px'}}/>
+                </div>
                 <div className="details">
                   <h3>Beats Studio</h3>
                   <p>******* <span>200+ Review</span></p>

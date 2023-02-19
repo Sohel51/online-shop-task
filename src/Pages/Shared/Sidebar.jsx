@@ -18,7 +18,10 @@ const Sidebar = () => {
         <h3><FaBeer /> Contact Us</h3>
         <h3><FaBeer /> Settings</h3>
       </div>
-      <div className="help"></div>
+      <div className="help p-3">
+        <h3><FaBeer /></h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, numquam. Aperiam libero accusamus totam laboriosam!</p>
+      </div>
     </div>
   )
 }
